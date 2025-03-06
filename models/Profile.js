@@ -13,15 +13,14 @@ Profile.init(
       allowNull: true,
     },
     birthday: {
-        type: DataTypes.STRING,
-        allowNull: true,
-      },
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
   },
   {
     sequelize: db,
     modelName: "Profile",
   }
 );
-
 
 module.exports = Profile;
